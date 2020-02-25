@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1422f995-0e25-4be3-8bd2-2bd610ae0816" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XcMLJ9d8nildW878UfwAHzbFsX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../轮播" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\warkspace\ucproject\img" />
+      <recent name="D:\warkspace\ucproject\html" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.produceCompanyInfo.html">
+    <configuration name="produceCompanyInfo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63341/ucproject/html/produceCompanyInfo.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="produceInfo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63341/ucproject/html/produceInfo.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.produceCompanyInfo.html" />
+        <item itemvalue="JavaScript Debug.produceInfo.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1422f995-0e25-4be3-8bd2-2bd610ae0816" name="Default Changelist" comment="" />
+      <created>1581340872326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581340872326</updated>
+      <workItem from="1581340876075" duration="2282000" />
+      <workItem from="1581385396461" duration="9324000" />
+      <workItem from="1581400273046" duration="28366000" />
+      <workItem from="1581589000198" duration="654000" />
+      <workItem from="1581654479293" duration="33000" />
+      <workItem from="1581664367262" duration="2083000" />
+      <workItem from="1581752796869" duration="7150000" />
+      <workItem from="1581828884579" duration="4000" />
+      <workItem from="1581828908782" duration="3000" />
+      <workItem from="1581836476699" duration="876000" />
+      <workItem from="1581837382606" duration="71000" />
+      <workItem from="1581838423817" duration="192000" />
+      <workItem from="1582006962918" duration="3000" />
+      <workItem from="1582010756387" duration="9000" />
+      <workItem from="1582162294644" duration="18706000" />
+      <workItem from="1582250803719" duration="11913000" />
+      <workItem from="1582453823523" duration="1127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582273527930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582273527930" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1581400661812">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581400661812" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582163221234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582163221234" />
+  </component>
+</project>

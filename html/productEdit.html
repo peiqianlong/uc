@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UC</title>
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1630532_vhi20rq6u5r.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="../js/jq3.4.1.js"></script>
+</head>
+
+<body>
+<div class="main-body">
+    <header class="container-fluid">
+        <div class="mainMaxWidth">
+            <div class="mnuenItem">
+                <div class="mnuenItem-left">
+                    <div class="logo"><img src="../img/logo.png" alt=""></div>
+                    <div class="text"><span class="fontdef">快捷发布</span></div>
+                </div>
+                <div class="mnuenItem-rigth">
+                    <div class="ecer-apps cur"><i class="iconfont icon-apps"></i></div>
+                    <div class="fontdef apps">ecer 应用</div>
+                    <div class="ecer-user cur"><i class="iconfont icon-yonghu"></i></div>
+                    <div class="fontdef">user name</div>
+                </div>
+            </div>
+            <div class="phoneHeader">
+                <div class="phoneHeader-menu">
+                    <div class="phone-ecer-apps"><i class="iconfont icon-apps"></i></div>
+                    <div class="phone-logo"><img src="../img/logo.png" alt=""></div>
+                    <div class="ecer-user"><i class="iconfont icon-yonghu"></i></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid section">
+        <div class="mainMaxWidth Editsetion">
+            <div class="section-header">
+                <div class="text">
+                    <span>产品编辑</span>
+                    <span></span>
+                </div>
+                <div class="item">
+                    <div class="new-pro">
+                        <span class="fontdef cur">保存</span>
+                    </div>
+                    <div class="new-pro clear">
+                        <span class="fontdef cur">取消</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section-main edit-main">
+                <div class=" prod-name">
+                    <h5 class="text99">产品标题</h5>
+                    <div class="line">
+                        <input id="editName" type="text"
+                               value="Durable Insulation Refractory Ceramic Fiber Blanket For V Neck Wedding Dresses">
+                    </div>
+
+                </div>
+                <div class=" prod-name prod-img">
+                    <h5 class="text99">产品图片</h5>
+                    <div class="imgupload">
+                        <ul>
+                            <li><img src="../img/chang.png" alt="">
+                                <div class="del cur"><i class="iconfont icon-shanchu"></i> <span>删除</span></div>
+                            </li>
+                            <li class="upload">
+                                <div style="position: relative">
+                                    <i class="iconfont icon-xinzeng"></i>
+                                    <span>添加图片</span>
+<!--                                    <input id="file" onchange="uploadImg();" style="margin:0;padding:0;opacity:0;position:absolute;height: 100%;width: 100%;" type='file' name='file'>-->
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class=" prod-name prod-edit">
+                    <h5 class="text99">详情描述</h5>
+                    <div class="edit pc">
+                        <div id="Editor"></div>
+                    </div>
+                    <div class="edit phone">
+                        <div class="div" contenteditable="true">Durable Insulation Refractory Ceramic Fiber Blanket For
+                            V Neck Wedding Dresses , <img src="../img/logo.png">Durable Insulation Refractory Ceramic
+                            Fiber Blanket For V Neck Wedding Dresses ,Durable Insulation Refractory Ceramic Fiber
+                            Blanket For V Neck Wedding Dresses ,Durable Insulation Refractory Ceramic Fiber Blanket For
+                            V Neck Wedding Dresses ,
+                        </div>
+                        <div class="btnt">
+                            <div style="margin-right: 16px" class="cur">换行</div>
+                            <div class="cur">插入图片</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item phone" style="width: 100%;justify-content: center;margin-top: 16px">
+                    <div class="new-pro">
+                        <span class="fontdef cur">保存</span>
+                    </div>
+                    <div class="new-pro clear">
+                        <span class="fontdef cur">取消</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+</div>
+
+
+
+<div class="Modal" id="delImg" style="display: none;">
+    <div class="Modal-info">
+        <div class="name fontdef">删除图片</div>
+        <div class="setting">
+            <!-- 改变名字-->
+            <!--                <div class="setting-name">-->
+            <!--                    <div>-->
+            <!--                        <input id="name" type="text">-->
+            <!--                        <span class="line"></span>-->
+            <!--                    </div>-->
+            <!--                    <span>.sale.ecer.com</span>-->
+            <!--                </div>-->
+            <!-- 提示信息-->
+            <div class="info"><span>您确认要删除这张图?</span></div>
+        </div>
+        <div class="btntab">
+            <div class="fontdef complete cur">确定</div>
+            <div class="fontdef clear cur closeModal">取消</div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+
+<script src="https://unpkg.com/wangeditor/release/wangEditor.min.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/paging.js"></script>
+<script src="../js/Editor.js"></script>

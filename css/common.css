@@ -1,0 +1,1222 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+    font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: couriernew, courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+#Editor img{
+    width: unset;
+    height: unset;
+}
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.fontdef {
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    color: rgba(51, 51, 51, 1);
+}
+
+.table-text a {
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    color: rgba(149, 149, 149, 1);
+    opacity: 1;
+    word-break: break-all;
+    margin-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.cur {
+    cursor: pointer;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.mainMaxWidth {
+    width: 933px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.main-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 顶部导航 */
+.main-body header {
+    width: 100%;
+    height: 83px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 12px rgba(159, 159, 159, 0.5);
+}
+
+.main-body header .mnuenItem {
+    width: 100%;
+    height: 32px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 顶部左侧 */
+.main-body header .mnuenItem .mnuenItem-left,
+.main-body header .mnuenItem .mnuenItem-rigth {
+    display: flex;
+    align-items: center;
+}
+
+.main-body header .mnuenItem .logo {
+    height: 100%;
+    width: 109px;
+}
+
+.main-body header .mnuenItem .text {
+    height: 100%;
+    margin-left: 12px;
+}
+
+.main-body header .mnuenItem .text span {
+    position: absolute;
+    bottom: 0;
+}
+
+/* 顶部右侧 */
+.main-body header .mnuenItem .mnuenItem-rigth .ecer-apps {
+    width: 28px;
+    height: 22px;
+    margin-right: 17px;
+    position: relative;
+}
+
+.main-body header .mnuenItem .mnuenItem-rigth .ecer-apps i,
+.main-body header .mnuenItem .mnuenItem-rigth .ecer-user i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: #36A149;
+}
+
+.main-body header .mnuenItem .mnuenItem-rigth .ecer-user {
+    width: 23px;
+    height: 24px;
+    margin-right: 11px;
+    position: relative;
+}
+
+.main-body header .mnuenItem .mnuenItem-rigth .apps {
+    margin-right: 31px;
+}
+
+/* 手机端顶部 */
+.phoneHeader {
+    display: none;
+    height: 100%;
+
+}
+
+.phoneHeader .phoneHeader-menu {
+    display: flex;
+    height: .51rem;
+    justify-content: space-between;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 .2rem;
+}
+
+.phoneHeader .phoneHeader-menu .phone-logo {
+    height: 100%;
+    width: 1.74rem;
+}
+
+.phoneHeader .phoneHeader-menu .phone-ecer-apps,
+.phoneHeader .phoneHeader-menu .ecer-user {
+    height: 100%;
+    position: relative;
+    width: .51rem;
+    overflow: hidden;
+}
+
+.phoneHeader .phoneHeader-menu .phone-ecer-apps i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .5rem;
+    color: #36A149;
+}
+
+.phoneHeader .phoneHeader-menu .ecer-user i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .4rem;
+    color: #36A149;
+}
+
+/* 身体部分 */
+section {
+    background: #F4F8F9;
+    flex: 1;
+    width: 100%;
+    padding-bottom: 30px !important;
+}
+
+section .section-header {
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .section-header .text span:first-child {
+    font-size: 16px;
+}
+
+section .section-header .text span:last-child {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(54, 161, 73, 1);
+}
+
+section .new-pro {
+    width: 110px;
+    height: 40px;
+    background: rgba(54, 161, 73, 1);
+    opacity: 1;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 13px 0 18px;
+    color: #fff;
+}
+
+section .new-pro:hover {
+    background: #28963C;
+}
+
+section .new-pro span {
+    color: #fff;
+    white-space: nowrap;
+}
+section .new-pro i{
+    margin-right: 11px;
+}
+section .section-main table {
+    width: 100%;
+    overflow: hidden;
+}
+
+section .section-main table thead tr {
+    height: 31px;
+    background: rgba(154, 208, 163, .1);
+    margin-bottom: 8px;
+}
+
+section .section-main table thead tr th {
+    color: #666;
+    font-size: 14px;
+}
+
+section .section-main table thead tr th:nth-child(1),
+section .section-main table tbody tr td:nth-child(1) {
+    width: 51px;
+    text-align: center;
+
+}
+
+section .section-main table tbody tr td:nth-child(1) .degger {
+    width: 35px;
+    height: 108px;
+    background: url("../img/点阵PC端.png") no-repeat center;
+    margin: 0 auto;
+    margin-left: 4px;
+    cursor: move;
+}
+
+section .section-main table thead tr th:nth-child(2),
+section .section-main table tbody tr td:nth-child(2) {
+    width: 92px;
+    text-align: center;
+}
+
+section .section-main table thead tr th:nth-child(3),
+section .section-main table tbody tr td:nth-child(3) {
+    width: 530px;
+}
+
+section .section-main table thead tr th:nth-child(4),
+section .section-main table tbody tr td:nth-child(4) {
+    width: 206px;
+    color: #959595;
+}
+
+section .section-main table thead tr th:nth-child(5) {
+    text-align: right;
+    padding-right: 23px;
+}
+
+section .section-main table tbody tr {
+    height: 113px;
+    background: #fff;
+}
+
+section .section-main table tbody tr td:nth-child(1) {
+    position: relative;
+}
+
+section .section-main table tbody tr td:nth-child(1) .line {
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background: rgba(235, 235, 235, 1);
+    top: 0;
+}
+
+section .section-main table tbody tr td:nth-child(2) .product-img {
+    width: 79px;
+    height: 79px;
+    overflow: hidden;
+}
+
+section .section-main table tbody tr td:nth-child(2) .product-img img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    max-width: 100%;
+    height: 100%;
+}
+
+section .section-main table tbody tr td:nth-child(3) .producr-info {
+    overflow: hidden;
+    max-width: 100%;
+    padding-right: 15px;
+}
+
+section .section-main table tbody tr td:nth-child(5) {
+    position: relative;
+}
+
+section .section-main table tbody tr td:nth-child(5) .meun-btn {
+    width: 53px;
+    height: 91px;
+    background: rgba(217, 217, 217, 1);
+    opacity: 1;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    right: 10px;
+    top: 11px;
+}
+
+section .section-main table tbody tr td:nth-child(5) .meun-btn:hover {
+    background: rgba(60, 60, 60, 1);
+}
+
+section .section-main table tbody tr td:nth-child(5) .operation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 170px;
+    right: 0px;
+    top: 0px;
+    background: #fff;
+}
+
+section .section-main table tbody tr td:nth-child(5) .showMenu {
+    position: absolute;
+    width: 53px;
+    height: 100%;
+    opacity: 0;
+    right: -140px;
+}
+
+section .section-main table tbody tr td:nth-child(5) .operation .item {
+    width: 53px;
+    height: 91px;
+    background: rgba(54, 161, 73, 1);
+    opacity: 1;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .section-main table tbody tr td:nth-child(5) .operation .copy {
+    background: #FF4E25;
+}
+
+section .section-main table tbody tr td:nth-child(5) .operation .del {
+    background: #F22121;
+}
+
+section .section-main table tbody tr td:nth-child(5) .operation .item i {
+    font-size: 18px;
+    color: #fff;
+}
+
+section .section-main table tbody tr td:nth-child(5) .operation .item span {
+    font-size: 12px;
+    font-family: PingFangSC-Regular;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+}
+
+/* 分页 */
+.pages {
+    text-align: center;
+    user-select: none;
+}
+
+.page_div {
+    margin-top: 37px;
+    font-size: 15px;
+    font-family: "microsoft yahei";
+    color: #666666;
+    margin-right: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+       * 页数按钮样式
+      */
+
+.page_div a {
+    min-width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 4px;
+    cursor: pointer;
+    line-height: 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+}
+
+.page_div a:hover {
+    color: #36A149;
+}
+
+/* 前后翻页样式 */
+#prePage,
+#nextPage {
+    width: 50px;
+}
+
+/* 当前页样式 */
+.page_div .current {
+    color: #36A149;
+}
+
+/* 总页数 */
+.totalPages {
+    margin: 0 10px;
+}
+
+/* 总记录 */
+.totalPages span,
+.totalSize span {
+    color: #0073A9;
+    margin: 0 5px;
+}
+
+#page i {
+    font-size: 26px;
+}
+
+.back {
+    width: 110px;
+    height: 40px;
+    border: 1px solid rgba(54, 161, 73, 1);
+    opacity: 1;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.back span {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    line-height: 40px;
+    color: rgba(54, 161, 73, 1);
+    opacity: 1;
+}
+
+.back:hover {
+    background: #36A149;
+    border: none;
+}
+
+.back:hover span {
+    color: #fff;
+}
+
+/* 详细信息页面 */
+.product-Info {
+    padding-top: 43px;
+}
+
+.product-Info .row {
+    margin: 0;
+}
+
+.product-Info .row .item {
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 11px 16px 36px;
+    margin-bottom: 15px;
+}
+
+.product-Info .row .item:nth-child(odd) {
+    margin-right: 10px;
+}
+
+.product-Info .row .item:nth-child(even) {
+
+    max-width: 456px;
+}
+
+.product-Info .row .item .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-Info .row .item .left div b {
+    color: rgba(54, 161, 73, 1);
+    font-size: 16px;
+}
+
+.product-Info .row .item .left .updata {
+    color: rgba(149, 149, 149, 1);
+}
+
+.product-Info .row .item .right {
+    display: flex;
+}
+
+.product-Info .row .item .right div {
+    width: 66px;
+    height: 81px;
+    background: #FF9A25;
+    opacity: 1;
+    border-radius: 4px;
+    margin: 0 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-Info .row .item .right .zhizuo:hover {
+
+    background: #F78D11;
+}
+
+.product-Info .row .item .right .fabu:hover {
+    background: #28963C
+}
+
+.product-Info .row .item .right div i {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.product-Info .row .item .right div span {
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+}
+
+.product-Info .row .item .right .fabu {
+    background: #36A149;
+}
+
+.product-Info .row .item .right .xinzeng {
+    background: rgba(54, 161, 73, 1);
+}
+
+.product-Info .row .item .right .ziliao {
+    background: rgba(60, 60, 60, 1);
+}
+
+/*编辑页面*/
+.Editsetion .text99 {
+    color: rgba(153, 153, 153, 1);
+    font-size: 16px;
+}
+
+.Editsetion .item {
+    display: flex;
+}
+
+.Editsetion .item .new-pro span {
+    text-align: center;
+    width: 100%;
+}
+
+.Editsetion .item .clear {
+    background: transparent;
+    border: 1px solid rgba(54, 161, 73, 1);
+    margin-left: 11px;
+}
+
+.Editsetion .item .clear:hover {
+    background: #36A149;
+    border: none;
+}
+
+.Editsetion .item .clear:hover span {
+    color: #fff;
+}
+
+.Editsetion .item .clear span {
+    color: rgba(54, 161, 73, 1);
+}
+
+.edit-main .prod-name {
+    height: 114px;
+    background: rgba(255, 255, 255, 1);
+    padding: 18px 22px 28px 26px;
+}
+
+.edit-main .prod-name h5 {
+    margin-bottom: 17px;
+}
+
+.edit-main .prod-name .line {
+    position: relative;
+}
+
+.edit-main .prod-name input {
+    width: 100%;
+    height: 21px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
+    padding-bottom: 8px;
+}
+
+.edit-main .prod-name input:focus {
+    border-bottom: 1px solid #36A249;
+}
+
+.edit-main .prod-img {
+    margin-top: 12px;
+    height: unset;
+    padding-bottom: 26px;
+}
+.edit-main .prod-img ul{
+    display: flex;align-items: center;
+    flex-wrap: wrap;
+}
+.edit-main .prod-img ul li {
+    width: 120px;
+    height: 120px;
+    margin-right: 11px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #999;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.edit-main .prod-img ul .upload {
+    border: none;
+}
+
+.edit-main .prod-img ul li img {
+    max-height: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.edit-main .prod-img ul li .del {
+    height: 32px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    background-size: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.edit-main .prod-img ul li .del:hover {
+    background: rgba(0, 0, 0, .8);
+}
+
+.edit-main .prod-img ul li .del i {
+    line-height: 32px;
+    font-size: 16px;
+    margin-right: 3px;
+    display: inline-block;
+}
+
+.edit-main .prod-img ul li .del span {
+    line-height: 32px;
+    font-size: 13px;
+}
+
+.edit-main .prod-img ul .upload div {
+    border: 1px dashed rgba(153, 153, 153, 1);
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    color: #999999;
+}
+
+.edit-main .prod-img ul .upload div:hover {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(234, 234, 234, 1) 100%);
+}
+
+.edit-main .prod-img ul .upload div:active {
+    background: linear-gradient(180deg, rgba(234, 234, 234, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.edit-main .prod-img ul .upload div i {
+    font-size: 48px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    height: 57px;
+    display: inline-block;
+}
+
+.edit-main .prod-img ul .upload div span {
+    display: inline-block;
+}
+
+.edit-main .prod-info {
+    height: unset;
+}
+
+.edit-main .prod-info .infoitem {
+    display: flex;
+    height: 20px;
+    flex: 1;
+}
+
+.ml13 {
+    margin-left: 13px;
+}
+
+.edit-main .prod-info .infoitem span {
+    white-space: nowrap;
+    margin-right: 9px;
+    width: 63px;
+}
+
+.edit-main .prod-info .infoitem input {
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
+}
+
+.edit-main .prod-info .infoitem input:focus {
+    border-bottom: 1px solid #36A249;
+}
+
+.edit-main .prod-edit {
+    height: unset;
+    margin-top: 12px;
+    padding-bottom: 18px;
+}
+
+.edit-main .prod-edit .phone {
+    display: none;
+
+}
+
+.edit-main .prod-edit .phone .div {
+    min-height: 273px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    opacity: 1;
+    width: 100%;
+    padding: 18px 23px 20px 22px;
+}
+
+.edit-main .prod-edit .phone .btnt {
+    display: flex;
+    justify-content: flex-end;
+    border: 0;
+    padding: 0;
+    padding-top: .24rem;
+}
+
+.edit-main .prod-edit .phone .btnt div {
+    width: 1.67rem;
+    height: .77rem;
+    background: rgba(232, 232, 232, 1);
+    opacity: 1;
+    border-radius: 4px;
+    text-align: center;
+    line-height: .77rem;
+    font-size: .24rem;
+    color: rgba(51, 51, 51, 1);
+
+}
+
+.edit-main .prod-edit .phone div img {
+    max-width: 1rem;
+    max-height: 1rem;
+}
+
+
+/*公司信息*/
+.produceCompanyInfo .edit-main .prod-company {
+    background: unset;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+}
+
+.produceCompanyInfo .edit-main .prod-company .upimg {
+    flex: 1;
+    background: #fff;
+    padding: 18px 26px 13px 26px;
+
+}
+
+.produceCompanyInfo .edit-main .prod-company .upimg:last-child {
+    margin-left: 13px;
+}
+
+/*对话框*/
+.Modal {
+    background: rgba(0, 0, 0, .4);
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    left: 0;
+    display: none;
+}
+
+.Modal .Modal-info {
+    width: 370px;
+    height: 195px;
+    background: rgba(239, 239, 239, 1);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Modal .Modal-info .name {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 28px;
+    text-align: center;
+}
+
+.Modal .Modal-info .btntab {
+    height: 60px;
+    display: flex;
+}
+
+.Modal .Modal-info .btntab div {
+    flex: 1;
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+}
+
+.Modal .Modal-info .btntab div:first-child {
+    border-top: 1px solid rgba(8, 20, 31, 0.13);
+    font-weight: 600;
+    color: rgba(0, 122, 255, 1);
+}
+
+.Modal .Modal-info .btntab div:first-child:active {
+    background: #D9D9D9;
+}
+
+.Modal .Modal-info .btntab div:last-child {
+    border-top: 1px solid rgba(8, 20, 31, 0.13);
+    font-weight: 400;
+    border-left: 1px solid rgba(8, 20, 31, 0.13);
+    color: rgba(0, 122, 255, 1);
+}
+
+.Modal .Modal-info .btntab div:last-child:active {
+    background: #D9D9D9;
+}
+
+.Modal .Modal-info .setting {
+    flex: 1;
+}
+
+.Modal .Modal-info .setting .info span {
+    font-size: 16px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+}
+
+.Modal .Modal-info .setting .setting-name, .Modal .Modal-info .setting .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+ .Modal .Modal-info .setting .info .spantxt {
+    padding: 0 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 18px;
+}
+
+.Modal .Modal-info .setting .setting-name div {
+    position: relative;
+}
+
+.Modal .Modal-info .setting .setting-name div .line {
+    content: "";
+    height: 1px;
+    width: 95%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 1);;
+}
+
+.Modal .Modal-info .setting .setting-name div input:focus + .line {
+    background: rgba(54, 162, 73, 1);
+}
+
+.Modal .Modal-info .setting .setting-name div input {
+    border: none;
+    outline: none;
+    background: unset;
+    margin-right: 16px;
+}
+
+
+
+section .section-main table tbody tr:hover{
+    box-shadow:0px 3px 6px rgba(0,0,0,.1), 0px -3px 6px rgba(0,0,0,.1);
+}
+
+@media (max-width: 768px) {
+    .mainMaxWidth {
+        width: 100%;
+    }
+
+    .phoneHeader {
+        display: block;
+    }
+
+    .main-body header .mnuenItem {
+        display: none;
+    }
+
+    .main-body header {
+        height: 1.31rem;
+    }
+
+    .phoneHeader .phoneHeader-menu .phone-ecer-apps,
+    .phoneHeader .phoneHeader-menu .ecer-user {
+        height: .51rem;
+        width: .55rem;
+    }
+
+    .phoneHeader .phoneHeader-menu .ecer-user i {
+        font-size: .48rem;
+    }
+
+    .section {
+        padding: 0 26px;
+    }
+
+    .pages,
+    section .section-main table thead tr,
+    section .section-main table tbody tr td:nth-child(4) {
+        display: none;
+    }
+
+    section .section-main table tbody tr td:nth-child(1) {
+        width: .37rem;
+    }
+
+    section .section-main table tbody tr td:nth-child(3) {
+        width: 3.83rem;
+    }
+
+    section .section-main table tbody tr td:nth-child(5) .operation {
+
+        top: -10px;
+        right: 0;
+        justify-content: flex-end;
+    }
+
+    section .section-main table tbody tr td:nth-child(5) .operation .item {
+        height: 113px;
+        border-radius: 0;
+        width: 1rem;
+    }
+
+    section .section-main table tbody tr td:nth-child(5) .meun-btn {
+        width: .52rem;
+    }
+
+    section .section-main table tbody tr td:nth-child(5) .meun-btn i {
+        font-size: .38rem !important;
+    }
+
+    .back {
+        width: 100%;
+    }
+
+
+    .product-Info .row .item {
+        width: 100%;
+        max-width: 100% !important;
+    }
+
+    .product-Info .row .item {
+        padding: .16rem .11rem .16rem .36rem;
+        height: 1.71rem;
+    }
+
+    .product-Info .row .item .left span, .product-Info .row .item .left a, .product-Info .row .item .left b {
+        font-size: .26rem;
+    }
+
+    .product-Info .row .item .left .updata {
+        font-size: .2rem;
+    }
+
+    .product-Info .row .item .right div {
+        width: 1.15rem;
+        height: 1.42rem;
+    }
+
+    .product-Info .row .item .right div i {
+        font-size: .4rem;
+    }
+
+    .product-Info .row .item .right div span {
+        font-size: .23rem;
+    }
+
+    .edit-main .prod-edit .pc {
+        display: none;
+    }
+
+    .edit-main .prod-edit .phone {
+        display: block;
+
+    }
+
+    .Editsetion .phone .new-pro {
+        flex: 1;
+        height: .76rem;
+
+    }
+
+    .Editsetion .phone .new-pro span {
+        font-size: .24rem;
+    }
+
+    .produceCompanyInfo .edit-main .prod-company {
+        flex-direction: column;
+    }
+
+    .produceCompanyInfo .edit-main .prod-company .upimg:last-child {
+        margin-left: 0px;
+        margin-top: 21px;
+    }
+
+    .Modal .Modal-info {
+        width: 5.9rem;
+        height: 3.11rem;
+    }
+
+    .Modal .Modal-info .name {
+        margin-top: .43rem;
+    }
+
+    .Modal .Modal-info .btntab {
+        flex-direction: row-reverse;
+    }
+
+    .Modal .Modal-info .btntab div:last-child {
+        border-right: 1px solid rgba(8, 20, 31, 0.13);
+    }
+
+
+    .imphone {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .conmpanydizhi {
+        flex-direction: column;
+    }
+
+    .ml13 {
+        margin-left: 0;
+        margin-top: 32px;
+    }
+    section .section-main table tbody tr td:nth-child(1) .degger {
+        background: url("../img/点阵移动端.png") no-repeat left top;
+        width: .5rem;
+        margin-left: 8px;
+    }
+    section .section-main table thead tr th:nth-child(2), section .section-main table tbody tr td:nth-child(2){
+        width: 75px;
+    }
+    section .section-main table tbody tr td:nth-child(2) .product-img{
+        width: 70px;
+        height: 70px;
+    }
+    section .section-main table tbody tr td:nth-child(2) .product-img img{
+        max-width: 90%;
+    }
+
+}
